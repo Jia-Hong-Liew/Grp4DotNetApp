@@ -10,7 +10,7 @@ namespace AspNetCoreWebServiceTest.Controllers
         {
             HelloController controller = new HelloController();
             var response = controller.Get().Value as Response;
-            Assert.Equal("123424534342 1213", response.Output);
+            Assert.Equal("@31%&$!@!! 1213", response.Output);
         }
 
         [Theory]
